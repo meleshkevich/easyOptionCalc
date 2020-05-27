@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Option Calculator</title>
+</head>
+<body>
+    <div class="counter" id="price">
+        <div class="counter-title">Check up our special offer!
+        </div>
+        <div class="counter-block">
+            <div class="counter-block-option">How many pax ? </div>
+            <input type="number" min="1" step="1" class="counter-block-input">
+        </div>
+        <div class="counter-block">
+            <div class="counter-block-option">How many days ?</div>
+            <input type="number" min="1" step="1" class="counter-block-input">
+        </div>
+        <div class="counter-block">
+            <div class="counter-block-option">Choose your destination</div>
+            <select name="place" id="select">
+                <option id="mumbai" value="1">Turkey</option>
+                <option id="kerala" value="1.5">India</option>
+                <option id="varanasi" value="1.8">Indonesia</option>
+            </select>
+        </div>
+        <div class="counter-total">
+            Grand Total<br>
+            <span id="total"> </span>
+        </div>
+    </div>
+
+    <script src="script_calc.js"></script>
+     
+</body>
+</html>
